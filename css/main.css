@@ -1,0 +1,304 @@
+@charset "gb2312";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-size: 12px;
+}
+
+body{
+	background-color: #F5F5F5;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+h2{
+	font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #575757;
+    font-size: 20px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.nav_left{
+	display: inline;
+	float: left;
+}
+
+.nav_left img{
+	width: 100px;
+	height: 70px;
+	background: #fff;
+	padding-left: 50px;
+}
+
+
+.nav_mid_left{
+	width: 750px;
+	height: 70px;
+	display: inline;
+	float: right;
+	background: #fff;
+}
+.nav_mid_left ul{
+	width: 100%;
+}
+
+.nav_mid_left li{
+	float: left;
+	list-style-type: none;
+	text-align: center;
+}
+
+.nav_mid_left li a{
+	text-decoration: none;
+	display: inline-block;
+	background: #fff;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	width: 100px;
+	height: 70px;
+	line-height: 70px;
+}
+
+.nav_mid_left li a:link,.nav_mid_left li a:visited{
+	color: #000;
+}
+
+.nav_mid_left li a:active,.nav_mid_left li a:hover{
+	background-color: #cc1b1b;
+}
+
+.nav_right{
+	background-color: #fff;
+	width: 100px;
+	height: 70px;
+	float: left;
+}
+
+
+#feature {
+    background: #f2f2f2;
+    padding-bottom: 0px;
+    clear: both;
+    
+}
+
+.center{
+	text-align: center;
+    padding-bottom: 40px;
+    background: #d7e9f6;
+}
+
+.center h2{
+	font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.service_items{
+	display: inline-block;
+	width: 250px;
+	float: left;
+	border: solid 1px #ccc;
+	clear: both;
+}
+
+.service_items li{
+	list-style-type: none;
+}
+
+.service_items h3,.title h3{
+	color: #666;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	height: 30px;
+	line-height: 30px;
+	border-bottom: solid 1px #ccc;
+	padding-left: 5px;
+}
+
+.detail li{
+	color: #666;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	height: 25px;
+	line-height: 25px;
+	border-bottom: solid 1px #ccc;
+	padding-left: 10px;
+}
+
+.phone{
+	color: #666;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	height: 180px;
+	line-height: 25px;
+	border-bottom: solid 1px #ccc;
+	padding-left: 10px;
+}
+
+.phone img{
+	margin-left:50px; 
+	margin-top: -30px;
+}
+
+.content{
+	display: inline-block;
+	width: 730px;
+	border: solid 1px #ccc; 
+	float: right;
+}
+
+.title{
+	height: 30px;
+	border-bottom: solid 1px #ccc;
+}
+
+.serviceProcess h2{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 10px;
+	border-bottom: solid 1px #ccc;
+	color: #000;
+}
+
+.serviceProcess li{
+	list-style-type: none;
+}
+
+.serviceProcess li:nth-child(odd){
+	padding:30px 0 10px 10px;
+	font-weight: 600;
+}
+
+.serviceProcess li:nth-child(even){
+	padding:0px 0 0px 30px;
+
+}
+
+.serviceProcess1
+{
+	min-height: 380px;
+}
+.serviceProcess1 h2{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 10px;
+	border-bottom: solid 1px #ccc;
+	color: #000;
+	padding-top: 30px;
+}
+
+
+.navs h1{
+	padding:30px 0 20px 10px;
+}
+
+.navs p{
+	padding-left: 10px;
+	height: 10px;
+	line-height: 10px;
+}
+
+.lead {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.lead a{
+	text-decoration: none;
+}
+
+.lead a:link,.lead a:visited{
+	text-decoration: none;
+	color: #8e8e8e;
+}
+
+.row{
+	width: 100%;
+	text-align: center;
+	background: #666;
+	clear: both;
+}
+
+.feature-wrap{
+	width: 330px;
+	height: 200px;
+	display: inline-block;
+	float:left;
+
+}
+.feature-wrap h2{
+	text-align: center;
+	padding: 30px 0;
+}
+
+.feature-wrap h3{
+	font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 2em;
+}
+
+.feature1{
+    background: #f2f2f2;
+}
+
+.feature2{
+    background: ;
+}
+
+.feature3{
+    background: #f2f2f2;
+}
+
+#recent-works{
+	clear: both;
+}
+
+.recent-work-wrap{
+	display: inline-block;
+	width: 330px;
+	float: left;
+}
+
+.img-responsive{
+	width: 250px;
+}
+
+.recent-work-inner{
+	padding: 10px 0;
+}
+
+.recent-work-inner h3{
+	font-size: 14px;
+	color: #666;
+}
+
+.footer
+{
+    margin-top:5px;
+    float: left;
+    clear: both;
+    width:100%;
+    height:40px;
+    background-color:#ccc;
+}
+.footer p
+{
+    color:grey;
+    text-align: center;
+    line-height:40px;
+    font-weight:bold;   
+    padding-top: 5px;
+}
